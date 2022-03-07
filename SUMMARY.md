@@ -9,6 +9,7 @@
     * [Knife](pentesting/hackthebox/easy/knife.md)
     * [Cap](pentesting/hackthebox/easy/cap.md)
 * [TryHackMe](pentesting/tryhackme.md)
+* [OWASP Juice Shop](https://github.com/juice-shop/juice-shop)
 
 ## Tools
 
@@ -17,6 +18,7 @@
 * [Enumeration](tools/enumeration/README.md)
   * [AutoRecon](tools/enumeration/autorecon.md)
   * [Subdomain Enumeration](tools/enumeration/subdomain-enumeration.md)
+* [GitLeaks](tools/gitleaks.md)
 
 ## Pentesting
 
