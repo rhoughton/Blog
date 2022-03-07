@@ -1,3 +1,8 @@
+---
+cover: .gitbook/assets/Paramotors.png
+coverY: 0
+---
+
 # About Me
 
 ## Tyler Staut
@@ -10,17 +15,21 @@ I am currently a cloud security engineer working to become a certified pen teste
 {% tab title="HackTheBox" %}
 My HackTheBox profile is [here](https://app.hackthebox.eu/profile/137731)
 
-{% page-ref page="pentesting/hackthebox/" %}
+{% content-ref url="pentesting/hackthebox/" %}
+[hackthebox](pentesting/hackthebox/)
+{% endcontent-ref %}
+
+
 {% endtab %}
 
 {% tab title="TryHackMe" %}
 My TryHackMe profile is [here](https://tryhackme.com/p/TylerStaut)
 
-{% page-ref page="pentesting/tryhackme.md" %}
+{% content-ref url="pentesting/tryhackme.md" %}
+[tryhackme.md](pentesting/tryhackme.md)
+{% endcontent-ref %}
 {% endtab %}
 {% endtabs %}
-
-
 
 
 

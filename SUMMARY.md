@@ -2,7 +2,7 @@
 
 * [About Me](README.md)
 
-## Pentesting
+## CTF Platforms <a href="#pentesting" id="pentesting"></a>
 
 * [HackTheBox](pentesting/hackthebox/README.md)
   * [Easy](pentesting/hackthebox/easy/README.md)
@@ -14,10 +14,22 @@
 
 * [Configuration](tools/configuration/README.md)
   * [Init](https://github.com/Tyler-Staut/init)
-  * [Rooms](tools/configuration/rooms.md)
+* [Enumeration](tools/enumeration/README.md)
+  * [AutoRecon](tools/enumeration/autorecon.md)
+  * [Subdomain Enumeration](tools/enumeration/subdomain-enumeration.md)
+
+## Pentesting
+
+* [Reverse Engineering](pentesting-1/reverse-engineering/README.md)
+  * [Cutter](pentesting-1/reverse-engineering/cutter.md)
+  * [Immunity Debugger](pentesting-1/reverse-engineering/immunity-debugger.md)
+* [Passwords](pentesting-1/passwords/README.md)
+  * [Password Lists](pentesting-1/passwords/password-lists.md)
+  * [Hashcat](pentesting-1/passwords/hashcat.md)
+* [Misc Commands](pentesting-1/misc-commands/README.md)
+  * [SSH Tunnel](pentesting-1/misc-commands/ssh-tunnel.md)
 
 ## Connect With Me
 
 * [Linkedin](https://www.linkedin.com/in/tyler-staut-361736121/)
 * [Github](https://github.com/Tyler-Staut)
-

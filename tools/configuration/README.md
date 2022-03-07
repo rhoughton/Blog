@@ -8,5 +8,7 @@ description: Tools good for setting things up
 
 Init is a tool designed to help initialize your environment with a baseline configuration regardless of what system you are on. Feel free to help contribute!
 
-
+{% content-ref url="broken-reference" %}
+[Broken link](broken-reference)
+{% endcontent-ref %}
 
