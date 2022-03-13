@@ -30,6 +30,7 @@
   * [Hashcat](pentesting-1/passwords/hashcat.md)
 * [Misc Commands](pentesting-1/misc-commands/README.md)
   * [SSH Tunnel](pentesting-1/misc-commands/ssh-tunnel.md)
+  * [Carve out file from memory](pentesting-1/misc-commands/carve-out-file-from-memory.md)
 
 ## Connect With Me
 
