@@ -163,11 +163,17 @@ Setting the data value from 1 to 0 I get non-zero values for the number of packe
 
 Opening up the pcap that is downloaded in wireshark I almost immediately spot a username and password
 
-![Username and Password in plaintext](<../../../.gitbook/assets/image (10).png>)
+![Username and Password in plaintext
+](<../../../.gitbook/assets/image (10).png>)
 
-**Credentials:**\
-****Username: nathan\
+<details>
+
+<summary>Credentials</summary>
+
+Username: nathan\
 Password: Buck3tH4TF0RM3!
+
+</details>
 
 These credentials worked for ssh
 
