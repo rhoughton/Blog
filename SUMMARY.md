@@ -2,13 +2,12 @@
 
 * [About Me](README.md)
 
-## CTF Platforms <a href="#pentesting" id="pentesting"></a>
+## CTF Platforms I Like <a href="#ctf" id="ctf"></a>
 
-* [HackTheBox](pentesting/hackthebox/README.md)
-  * [Easy](pentesting/hackthebox/easy/README.md)
-    * [Knife](pentesting/hackthebox/easy/knife.md)
-    * [Cap](pentesting/hackthebox/easy/cap.md)
-* [TryHackMe](pentesting/tryhackme.md)
+* [HackTheBox](ctf/hackthebox/README.md)
+  * [Linux](ctf/hackthebox/linux/README.md)
+    * [Cap](ctf/hackthebox/linux/cap.md)
+* [TryHackMe](ctf/tryhackme.md)
 * [OWASP Juice Shop](https://github.com/juice-shop/juice-shop)
 
 ## Tools
@@ -22,15 +21,15 @@
 
 ## Pentesting
 
-* [Reverse Engineering](pentesting-1/reverse-engineering/README.md)
-  * [Cutter](pentesting-1/reverse-engineering/cutter.md)
-  * [Immunity Debugger](pentesting-1/reverse-engineering/immunity-debugger.md)
-* [Passwords](pentesting-1/passwords/README.md)
-  * [Password Lists](pentesting-1/passwords/password-lists.md)
-  * [Hashcat](pentesting-1/passwords/hashcat.md)
-* [Misc Commands](pentesting-1/misc-commands/README.md)
-  * [SSH Tunnel](pentesting-1/misc-commands/ssh-tunnel.md)
-  * [Carve out file from memory](pentesting-1/misc-commands/carve-out-file-from-memory.md)
+* [Reverse Engineering](pentesting/reverse-engineering/README.md)
+  * [Cutter](pentesting/reverse-engineering/cutter.md)
+  * [Immunity Debugger](pentesting/reverse-engineering/immunity-debugger.md)
+* [Passwords](pentesting/passwords/README.md)
+  * [Password Lists](pentesting/passwords/password-lists.md)
+  * [Hashcat](pentesting/passwords/hashcat.md)
+* [Misc Commands](pentesting/misc-commands/README.md)
+  * [SSH Tunnel](pentesting/misc-commands/ssh-tunnel.md)
+  * [Carve out file from memory](pentesting/misc-commands/carve-out-file-from-memory.md)
 
 ## Connect With Me
 

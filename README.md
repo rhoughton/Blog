@@ -15,8 +15,8 @@ I am currently a cloud security engineer working to become a certified pen teste
 {% tab title="HackTheBox" %}
 My HackTheBox profile is [here](https://app.hackthebox.eu/profile/137731)
 
-{% content-ref url="pentesting/hackthebox/" %}
-[hackthebox](pentesting/hackthebox/)
+{% content-ref url="ctf/hackthebox/" %}
+[hackthebox](ctf/hackthebox/)
 {% endcontent-ref %}
 
 
@@ -25,8 +25,8 @@ My HackTheBox profile is [here](https://app.hackthebox.eu/profile/137731)
 {% tab title="TryHackMe" %}
 My TryHackMe profile is [here](https://tryhackme.com/p/TylerStaut)
 
-{% content-ref url="pentesting/tryhackme.md" %}
-[tryhackme.md](pentesting/tryhackme.md)
+{% content-ref url="ctf/tryhackme.md" %}
+[tryhackme.md](ctf/tryhackme.md)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}
