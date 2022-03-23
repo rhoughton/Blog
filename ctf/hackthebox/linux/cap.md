@@ -175,6 +175,8 @@ Password: Buck3tH4TF0RM3!
 
 </details>
 
+## Initial Access
+
 These credentials worked for ssh
 
 ![SSH Session](<../../../.gitbook/assets/image (6).png>)
