@@ -4,6 +4,8 @@ description: This is where I will keep my notes/guides on retired boxes.
 
 # HackTheBox
 
+My HackTheBox profile is [here](https://app.hackthebox.eu/profile/137731)
+
 {% tabs %}
 {% tab title="Linux" %}
 {% content-ref url="linux/cap.md" %}
