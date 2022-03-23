@@ -1,7 +1,6 @@
 ---
 cover: .gitbook/assets/Paramotors.png
 coverY: 0
-layout: landing
 ---
 
 # About Me
