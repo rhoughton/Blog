@@ -7,7 +7,11 @@ coverY: 0
 
 ## Tyler Staut
 
-I am currently a cloud security engineer working to become a certified pen tester
+I am currently a cloud security engineer working to become a certified penetration tester.
+
+I have my own personal homelab where I can experiment with just about anything. My recent project was setting up flight aware to track aircraft in my area. I want to eventually take this a step further and gather weather data from satalites.
+
+I am using this blog to help me on my pentesting journey and will include a lot of information I find useful and writeups so I can search them easily later.
 
 ## Hacking Blogs
 
