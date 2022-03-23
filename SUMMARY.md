@@ -21,15 +21,23 @@
 
 ## Pentesting
 
+* [Privilege Escalation](pentesting/privilege-escalation/README.md)
+  * [Linux](pentesting/privilege-escalation/linux/README.md)
+    * [VIM Tricks](pentesting/privilege-escalation/linux/vim-tricks.md)
 * [Reverse Engineering](pentesting/reverse-engineering/README.md)
   * [Cutter](pentesting/reverse-engineering/cutter.md)
   * [Immunity Debugger](pentesting/reverse-engineering/immunity-debugger.md)
-* [Passwords](pentesting/passwords/README.md)
-  * [Password Lists](pentesting/passwords/password-lists.md)
-  * [Hashcat](pentesting/passwords/hashcat.md)
 * [Misc Commands](pentesting/misc-commands/README.md)
   * [SSH Tunnel](pentesting/misc-commands/ssh-tunnel.md)
   * [Carve out file from memory](pentesting/misc-commands/carve-out-file-from-memory.md)
+* [Active Directory](pentesting/active-directory/README.md)
+  * [Domain Enumeration](pentesting/active-directory/domain-enumeration.md)
+* [Application Security](pentesting/application-security/README.md)
+  * [SSTI](pentesting/application-security/ssti.md)
+* [Passwords](pentesting/passwords/README.md)
+  * [Wordlists](pentesting/passwords/wordlists.md)
+* [C2](pentesting/c2/README.md)
+  * [Metasploit](pentesting/c2/metasploit.md)
 
 ## Connect With Me
 

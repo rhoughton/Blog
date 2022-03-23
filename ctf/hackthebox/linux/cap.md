@@ -10,7 +10,7 @@ layout: editorial
 
 First we want to run a initial nmap scan to see what ports are open and what services are on those ports.
 
-```
+```hcl
 nmap -sC -sV -oA nmap/init 10.129.141.123
 ```
 
@@ -24,7 +24,7 @@ We get back the following information:
 * **Port 22:** running OpenSSH version 8.2p1 Ubuntu 4ubuntu0.2
 * **Port 80:** running gunicorn web server
 
-```
+```hcl
 # Nmap 7.92 scan initiated Tue Mar 22 18:25:26 2022 as: nmap -sC -sV -oA nmap/init 10.129.141.123
 Nmap scan report for 10.129.141.123
 Host is up (0.039s latency).
