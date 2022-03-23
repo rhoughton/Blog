@@ -2,13 +2,12 @@
 
 * [About Me](README.md)
 
-## CTF Platforms I Like <a href="#ctf" id="ctf"></a>
+## CTF Writeups
 
-* [HackTheBox](ctf/hackthebox/README.md)
-  * [Linux](ctf/hackthebox/linux/README.md)
-    * [Cap](ctf/hackthebox/linux/cap.md)
-* [TryHackMe](ctf/tryhackme.md)
-* [OWASP Juice Shop](https://github.com/juice-shop/juice-shop)
+* [HackTheBox](ctf-writeups/hackthebox/README.md)
+  * [Linux](ctf-writeups/hackthebox/linux/README.md)
+    * [Cap](ctf-writeups/hackthebox/linux/cap.md)
+* [TryHackMe](ctf-writeups/tryhackme.md)
 
 ## Tools
 
@@ -38,6 +37,12 @@
   * [Wordlists](pentesting/passwords/wordlists.md)
 * [C2](pentesting/c2/README.md)
   * [Metasploit](pentesting/c2/metasploit.md)
+
+## CTF Platforms I Like <a href="#ctf-platforms" id="ctf-platforms"></a>
+
+* [OWASP Juice Shop](https://github.com/juice-shop/juice-shop)
+* [HackTheBox](https://www.hackthebox.com)
+* [TryHackMe](https://tryhackme.com)
 
 ## Connect With Me
 
