@@ -19,18 +19,16 @@ I am using this blog to help me on my pentesting journey and will include a lot 
 {% tab title="HackTheBox" %}
 My HackTheBox profile is [here](https://app.hackthebox.eu/profile/137731)
 
-{% content-ref url="ctf-writeups/hackthebox/" %}
-[hackthebox](ctf-writeups/hackthebox/)
+{% content-ref url="ctf/hackthebox/" %}
+[hackthebox](ctf/hackthebox/)
 {% endcontent-ref %}
-
-
 {% endtab %}
 
 {% tab title="TryHackMe" %}
 My TryHackMe profile is [here](https://tryhackme.com/p/TylerStaut)
 
-{% content-ref url="ctf-writeups/tryhackme.md" %}
-[tryhackme.md](ctf-writeups/tryhackme.md)
+{% content-ref url="ctf/tryhackme.md" %}
+[tryhackme.md](ctf/tryhackme.md)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}

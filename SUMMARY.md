@@ -4,10 +4,10 @@
 
 ## CTF Writeups
 
-* [HackTheBox](ctf-writeups/hackthebox/README.md)
-  * [Linux](ctf-writeups/hackthebox/linux/README.md)
-    * [Cap](ctf-writeups/hackthebox/linux/cap.md)
-* [TryHackMe](ctf-writeups/tryhackme.md)
+* [HackTheBox](ctf/hackthebox/README.md)
+  * [Linux](ctf/hackthebox/linux/README.md)
+    * [Cap](ctf/hackthebox/linux/cap.md)
+* [TryHackMe](ctf/tryhackme.md)
 
 ## Tools
 
