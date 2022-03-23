@@ -38,6 +38,12 @@
 * [C2](pentesting/c2/README.md)
   * [Metasploit](pentesting/c2/metasploit.md)
 
+## Cloud
+
+* [Security Tools](cloud/security-tools/README.md)
+  * [Multi Cloud](cloud/security-tools/multi-cloud.md)
+  * [AWS](cloud/security-tools/aws.md)
+
 ## CTF Platforms I Like <a href="#ctf-platforms" id="ctf-platforms"></a>
 
 * [OWASP Juice Shop](https://github.com/juice-shop/juice-shop)
