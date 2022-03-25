@@ -219,3 +219,7 @@ afbc5bd4b615a606 # Only first 16 bytes of hash shown
 </details>
 
 ## Lessons Learned
+
+* Restrict who can access the Jenkins management as this opens up unauthorized access
+* In some instances a file using alternate data streams could be an indicator of compromise
+* Be careful of which service users have SeImpersonatePrivilege as this could allow an attacker to easily escelate their privileges&#x20;
