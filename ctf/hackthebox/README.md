@@ -14,6 +14,8 @@ My HackTheBox profile is [here](https://app.hackthebox.eu/profile/137731)
 {% endtab %}
 
 {% tab title="Windows" %}
-
+{% content-ref url="../../ctf-writeups/hackthebox/windows/jeeves.md" %}
+[jeeves.md](../../ctf-writeups/hackthebox/windows/jeeves.md)
+{% endcontent-ref %}
 {% endtab %}
 {% endtabs %}

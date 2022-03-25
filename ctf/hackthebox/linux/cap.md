@@ -1,6 +1,6 @@
 # Cap
 
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 ## Reconnaissance <a href="#491d" id="491d"></a>
 
@@ -20,6 +20,7 @@ We get back the following information:
 * **Port 22:** running OpenSSH version 8.2p1 Ubuntu 4ubuntu0.2
 * **Port 80:** running gunicorn web server
 
+{% code title="init.nmap" %}
 ```hcl
 # Nmap 7.92 scan initiated Tue Mar 22 18:25:26 2022 as: nmap -sC -sV -oA nmap/init 10.129.141.123
 Nmap scan report for 10.129.141.123
@@ -134,33 +135,34 @@ Service Info: OSs: Unix, Linux; CPE: cpe:/o:linux:linux_kernel
 Service detection performed. Please report any incorrect results at https://nmap.org/submit/ .
 # Nmap done at Tue Mar 22 18:27:36 2022 -- 1 IP address (1 host up) scanned in 130.52 seconds
 ```
+{% endcode %}
 
 ## Enumeration <a href="#000d" id="000d"></a>
 
 Checking out the webserver I see that I am logged in as the user Nathan
 
-![Initial view of webpage](<../../../.gitbook/assets/image (2).png>)
+![Initial view of webpage](<../../../.gitbook/assets/image (2) (1).png>)
 
 It also appears that I can see netstat information from the server this is running on
 
-![Netstat page](<../../../.gitbook/assets/image (17).png>)
+![Netstat page](<../../../.gitbook/assets/image (17) (1).png>)
 
 The IP Config page shows that I am in fact looking at the box I just enumerated and this is not output from another server
 
-![Interface information](<../../../.gitbook/assets/image (8).png>)
+![Interface information](<../../../.gitbook/assets/image (8) (1).png>)
 
 Looking at the security snapshots page I notice something interesting in the address bar
 
-![Security Snapshots](<../../../.gitbook/assets/image (15).png>)
+![Security Snapshots](<../../../.gitbook/assets/image (15) (1).png>)
 
 Setting the data value from 1 to 0 I get non-zero values for the number of packets
 
-![](<../../../.gitbook/assets/image (13).png>)
+![](<../../../.gitbook/assets/image (13) (1).png>)
 
 Opening up the pcap that is downloaded in wireshark I almost immediately spot a username and password
 
 ![Username and Password in plaintext
-](<../../../.gitbook/assets/image (10).png>)
+](<../../../.gitbook/assets/image (10) (1).png>)
 
 <details>
 
@@ -175,23 +177,23 @@ Password: Buck3tH4TF0RM3!
 
 These credentials worked for ssh
 
-![SSH Session](<../../../.gitbook/assets/image (6).png>)
+![SSH Session](<../../../.gitbook/assets/image (6) (1).png>)
 
 I am unable to run sudo as the user nathan on the box so I am going to transfer over [linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) using [updog](https://github.com/sc0tfree/updog)
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
-![](<../../../.gitbook/assets/image (11).png>)
+![](<../../../.gitbook/assets/image (11) (1).png>)
 
 Running linpeas.sh I notice python3.8 has capabilities for setuid
 
-![cap\_setuid](<../../../.gitbook/assets/image (9).png>)
+![cap\_setuid](<../../../.gitbook/assets/image (9) (1).png>)
 
 ## Exploitation <a href="#714d" id="714d"></a>
 
 Going to [gtfobins](https://gtfobins.github.io/gtfobins/python/#capabilities) I can see we have an easy way to root wth python
 
-![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (14) (1).png>)
 
 Using this command I was able to get root
 

@@ -7,6 +7,8 @@
 * [HackTheBox](ctf/hackthebox/README.md)
   * [Linux](ctf/hackthebox/linux/README.md)
     * [Cap](ctf/hackthebox/linux/cap.md)
+  * [Windows](ctf-writeups/hackthebox/windows/README.md)
+    * [Jeeves](ctf-writeups/hackthebox/windows/jeeves.md)
 * [TryHackMe](ctf/tryhackme.md)
 
 ## Tools
@@ -29,6 +31,7 @@
 * [Misc Commands](pentesting/misc-commands/README.md)
   * [SSH Tunnel](pentesting/misc-commands/ssh-tunnel.md)
   * [Carve out file from memory](pentesting/misc-commands/carve-out-file-from-memory.md)
+  * [Powershell](pentesting/misc-commands/powershell.md)
 * [Active Directory](pentesting/active-directory/README.md)
   * [Domain Enumeration](pentesting/active-directory/domain-enumeration.md)
 * [Application Security](pentesting/application-security/README.md)
