@@ -12,6 +12,7 @@
 * [TryHackMe](ctf-writeups/tryhackme/README.md)
   * [Rooms](ctf-writeups/tryhackme/rooms/README.md)
     * [Dirty Pipe: CVE-2022-0847](ctf-writeups/tryhackme/rooms/dirty-pipe-cve-2022-0847.md)
+* [VulnHub](ctf-writeups/vulnhub.md)
 
 ## Tools
 
@@ -43,6 +44,14 @@
 * [C2](pentesting/c2/README.md)
   * [Metasploit](pentesting/c2/metasploit.md)
 
+## LeetCode
+
+* [Challenges](leetcode/challenges/README.md)
+  * [Palindrome Number](leetcode/challenges/palindrome-number.md)
+  * [Two Sum](leetcode/challenges/two-sum.md)
+* [Simple Security Tools](leetcode/simple-security-tools/README.md)
+  * [Port Scanner](leetcode/simple-security-tools/port-scanner.md)
+
 ## Cloud
 
 * [Security Tools](cloud/security-tools/README.md)
@@ -51,9 +60,10 @@
 
 ## CTF Platforms I Like <a href="#ctf-platforms" id="ctf-platforms"></a>
 
-* [OWASP Juice Shop](https://github.com/juice-shop/juice-shop)
 * [HackTheBox](https://www.hackthebox.com)
 * [TryHackMe](https://tryhackme.com)
+* [VulnHub](https://www.vulnhub.com)
+* [OWASP Juice Shop](https://github.com/juice-shop/juice-shop)
 
 ## Connect With Me
 
