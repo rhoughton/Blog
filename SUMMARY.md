@@ -9,7 +9,9 @@
     * [Cap](ctf/hackthebox/linux/cap.md)
   * [Windows](ctf-writeups/hackthebox/windows/README.md)
     * [Jeeves](ctf-writeups/hackthebox/windows/jeeves.md)
-* [TryHackMe](ctf/tryhackme.md)
+* [TryHackMe](ctf-writeups/tryhackme/README.md)
+  * [Rooms](ctf-writeups/tryhackme/rooms/README.md)
+    * [Dirty Pipe: CVE-2022-0847](ctf-writeups/tryhackme/rooms/dirty-pipe-cve-2022-0847.md)
 
 ## Tools
 

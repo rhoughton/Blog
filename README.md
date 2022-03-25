@@ -27,8 +27,8 @@ My HackTheBox profile is [here](https://app.hackthebox.eu/profile/137731)
 {% tab title="TryHackMe" %}
 My TryHackMe profile is [here](https://tryhackme.com/p/TylerStaut)
 
-{% content-ref url="ctf/tryhackme.md" %}
-[tryhackme.md](ctf/tryhackme.md)
+{% content-ref url="ctf-writeups/tryhackme/" %}
+[tryhackme](ctf-writeups/tryhackme/)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}

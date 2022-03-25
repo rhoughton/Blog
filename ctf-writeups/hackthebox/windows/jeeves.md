@@ -1,6 +1,6 @@
 # Jeeves
 
-![](<../../../.gitbook/assets/image (9).png>)
+![](<../../../.gitbook/assets/image (9) (1).png>)
 
 ## Reconnaissance <a href="#491d" id="491d"></a>
 
@@ -79,7 +79,7 @@ Looking at the http site we are presented with a search bar
 
 Searching takes you to error.html which turns out to just be an image
 
-![error.html](<../../../.gitbook/assets/image (17).png>)
+![error.html](<../../../.gitbook/assets/image (17) (1).png>)
 
 Source code for site, the action results in error.html
 
@@ -111,7 +111,7 @@ Quickly checking gobuster for jetty shows that we have a directory to check out
 
 Going there we see Jenkins!
 
-![Jenkins](<../../../.gitbook/assets/image (24).png>)
+![Jenkins](<../../../.gitbook/assets/image (24) (1).png>)
 
 Turns out we have command execution without needing to be logged in which works in our favor
 
@@ -131,7 +131,7 @@ First we want to copy the example to the bottom of the script so that it is run 
 
 Next we want to get a web server running and a netcat listener to catch the reverse shell. In this se I am using [updog](https://github.com/sc0tfree/updog) for my simple web server.
 
-![](<../../../.gitbook/assets/image (12).png>)
+![](<../../../.gitbook/assets/image (12) (1).png>)
 
 Using the script console again I run this command to download and execute the invoke powershell tcp reverse shell script
 
@@ -202,7 +202,7 @@ When we try and take a look at the administrators desktop we see hm.txt with an 
 
 Then I tried this
 
-![Alternate Data Streams](<../../../.gitbook/assets/image (9) (1).png>)
+![Alternate Data Streams](<../../../.gitbook/assets/image (9) (1) (1).png>)
 
 Alternate Data Streams, find more about them here
 
