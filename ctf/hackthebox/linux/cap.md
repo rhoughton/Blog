@@ -187,7 +187,7 @@ I am unable to run sudo as the user nathan on the box so I am going to transfer 
 
 Running linpeas.sh I notice python3.8 has capabilities for setuid
 
-![cap\_setuid](<../../../.gitbook/assets/image (9) (1).png>)
+![cap\_setuid](<../../../.gitbook/assets/image (9) (1) (1).png>)
 
 ## Exploitation <a href="#714d" id="714d"></a>
 

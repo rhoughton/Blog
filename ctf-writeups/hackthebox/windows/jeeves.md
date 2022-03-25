@@ -1,5 +1,7 @@
 # Jeeves
 
+![](<../../../.gitbook/assets/image (9).png>)
+
 ## Reconnaissance <a href="#491d" id="491d"></a>
 
 First we want to run a initial nmap scan to see what ports are open and what services are on those ports.
@@ -200,7 +202,7 @@ When we try and take a look at the administrators desktop we see hm.txt with an 
 
 Then I tried this
 
-![Alternate Data Streams](<../../../.gitbook/assets/image (9).png>)
+![Alternate Data Streams](<../../../.gitbook/assets/image (9) (1).png>)
 
 Alternate Data Streams, find more about them here
 
