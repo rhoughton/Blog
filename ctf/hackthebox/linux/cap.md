@@ -153,7 +153,7 @@ The IP Config page shows that I am in fact looking at the box I just enumerated 
 
 Looking at the security snapshots page I notice something interesting in the address bar
 
-![Security Snapshots](<../../../.gitbook/assets/image (15) (1).png>)
+![Security Snapshots](<../../../.gitbook/assets/image (15) (1) (1).png>)
 
 Setting the data value from 1 to 0 I get non-zero values for the number of packets
 

@@ -12,7 +12,9 @@
 * [TryHackMe](ctf-writeups/tryhackme/README.md)
   * [Rooms](ctf-writeups/tryhackme/rooms/README.md)
     * [Dirty Pipe: CVE-2022-0847](ctf-writeups/tryhackme/rooms/dirty-pipe-cve-2022-0847.md)
-* [VulnHub](ctf-writeups/vulnhub.md)
+    * [GoldenEye](ctf-writeups/tryhackme/rooms/goldeneye.md)
+* [VulnHub](ctf-writeups/vulnhub/README.md)
+  * [GoldenEye](ctf-writeups/vulnhub/goldeneye.md)
 
 ## Tools
 
@@ -31,6 +33,7 @@
 * [Reverse Engineering](pentesting/reverse-engineering/README.md)
   * [Cutter](pentesting/reverse-engineering/cutter.md)
   * [Immunity Debugger](pentesting/reverse-engineering/immunity-debugger.md)
+  * [Binary Enumeratoin](pentesting/reverse-engineering/binary-enumeratoin.md)
 * [Misc Commands](pentesting/misc-commands/README.md)
   * [SSH Tunnel](pentesting/misc-commands/ssh-tunnel.md)
   * [Carve out file from memory](pentesting/misc-commands/carve-out-file-from-memory.md)

@@ -75,7 +75,7 @@ gobuster dir -u http://10.129.174.184:50000 -w /usr/share/wordlists/dirbuster/di
 
 Looking at the http site we are presented with a search bar
 
-![](<../../../.gitbook/assets/image (15).png>)
+![](<../../../.gitbook/assets/image (15) (1).png>)
 
 Searching takes you to error.html which turns out to just be an image
 
