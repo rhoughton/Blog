@@ -67,5 +67,5 @@
 
 ## Connect With Me
 
-* [Linkedin](https://www.linkedin.com/in/tyler-staut-361736121/)
+* [Linkedin](https://www.linkedin.com/in/tyler-staut)
 * [Github](https://github.com/Tyler-Staut)
