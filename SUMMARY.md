@@ -47,6 +47,7 @@
   * [Wordlists](pentesting/passwords/wordlists.md)
 * [C2](pentesting/c2/README.md)
   * [Metasploit](pentesting/c2/metasploit.md)
+* [Shells](pentesting/shells.md)
 
 ## LeetCode
 
