@@ -141,11 +141,11 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 Checking out the webserver I see that I am logged in as the user Nathan
 
-![Initial view of webpage](<../../../.gitbook/assets/image (2) (1).png>)
+![Initial view of webpage](<../../../.gitbook/assets/image (2) (1) (1).png>)
 
 It also appears that I can see netstat information from the server this is running on
 
-![Netstat page](<../../../.gitbook/assets/image (17) (1) (1).png>)
+![Netstat page](<../../../.gitbook/assets/image (17) (1) (1) (1).png>)
 
 The IP Config page shows that I am in fact looking at the box I just enumerated and this is not output from another server
 
@@ -153,7 +153,7 @@ The IP Config page shows that I am in fact looking at the box I just enumerated 
 
 Looking at the security snapshots page I notice something interesting in the address bar
 
-![Security Snapshots](<../../../.gitbook/assets/image (15) (1) (1).png>)
+![Security Snapshots](<../../../.gitbook/assets/image (15) (1) (1) (1).png>)
 
 Setting the data value from 1 to 0 I get non-zero values for the number of packets
 
@@ -177,23 +177,23 @@ Password: Buck3tH4TF0RM3!
 
 These credentials worked for ssh
 
-![SSH Session](<../../../.gitbook/assets/image (6) (1).png>)
+![SSH Session](<../../../.gitbook/assets/image (6) (1) (1).png>)
 
 I am unable to run sudo as the user nathan on the box so I am going to transfer over [linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) using [updog](https://github.com/sc0tfree/updog)
 
 ![](<../../../.gitbook/assets/image (5) (1).png>)
 
-![](<../../../.gitbook/assets/image (11) (1) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1) (1) (1).png>)
 
 Running linpeas.sh I notice python3.8 has capabilities for setuid
 
-![cap\_setuid](<../../../.gitbook/assets/image (9) (1) (1) (1).png>)
+![cap\_setuid](<../../../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
 
 ## Exploitation <a href="#714d" id="714d"></a>
 
 Going to [gtfobins](https://gtfobins.github.io/gtfobins/python/#capabilities) I can see we have an easy way to root wth python
 
-![](<../../../.gitbook/assets/image (14) (1).png>)
+![](<../../../.gitbook/assets/image (14) (1) (1).png>)
 
 Using this command I was able to get root
 

