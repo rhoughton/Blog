@@ -12,6 +12,7 @@
 * [TryHackMe](ctf-writeups/tryhackme/README.md)
   * [Rooms](ctf-writeups/tryhackme/rooms/README.md)
     * [Dirty Pipe: CVE-2022-0847](ctf-writeups/tryhackme/rooms/dirty-pipe-cve-2022-0847.md)
+    * [Solar, exploiting log4j](ctf-writeups/tryhackme/rooms/solar-exploiting-log4j.md)
     * [Spring4Shell: CVE-2022-22965](ctf-writeups/tryhackme/rooms/spring4shell-cve-2022-22965.md)
     * [GoldenEye](ctf-writeups/tryhackme/rooms/goldeneye.md)
 * [VulnHub](ctf-writeups/vulnhub/README.md)

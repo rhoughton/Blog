@@ -153,16 +153,16 @@ The IP Config page shows that I am in fact looking at the box I just enumerated 
 
 Looking at the security snapshots page I notice something interesting in the address bar
 
-![Security Snapshots](<../../../.gitbook/assets/image (15) (1) (1) (1).png>)
+![Security Snapshots](<../../../.gitbook/assets/image (15) (1) (1) (1) (1).png>)
 
 Setting the data value from 1 to 0 I get non-zero values for the number of packets
 
-![](<../../../.gitbook/assets/image (13) (1).png>)
+![](<../../../.gitbook/assets/image (13) (1) (1).png>)
 
 Opening up the pcap that is downloaded in wireshark I almost immediately spot a username and password
 
 ![Username and Password in plaintext
-](<../../../.gitbook/assets/image (10) (1).png>)
+](<../../../.gitbook/assets/image (10) (1) (1).png>)
 
 <details>
 
@@ -177,13 +177,13 @@ Password: Buck3tH4TF0RM3!
 
 These credentials worked for ssh
 
-![SSH Session](<../../../.gitbook/assets/image (6) (1) (1).png>)
+![SSH Session](<../../../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 I am unable to run sudo as the user nathan on the box so I am going to transfer over [linpeas](https://github.com/carlospolop/PEASS-ng/tree/master/linPEAS) using [updog](https://github.com/sc0tfree/updog)
 
 ![](<../../../.gitbook/assets/image (5) (1).png>)
 
-![](<../../../.gitbook/assets/image (11) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1) (1) (1) (1).png>)
 
 Running linpeas.sh I notice python3.8 has capabilities for setuid
 
