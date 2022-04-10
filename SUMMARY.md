@@ -45,6 +45,7 @@
 * [Application Security](pentesting/application-security/README.md)
   * [SSTI](pentesting/application-security/ssti.md)
 * [Passwords](pentesting/passwords/README.md)
+  * [Hashcat](pentesting/passwords/hashcat.md)
   * [Wordlists](pentesting/passwords/wordlists.md)
 * [C2](pentesting/c2/README.md)
   * [Metasploit](pentesting/c2/metasploit.md)
