@@ -183,7 +183,7 @@ I am unable to run sudo as the user nathan on the box so I am going to transfer 
 
 ![](<../../../.gitbook/assets/image (5) (1).png>)
 
-![](<../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (16) (1) (1) (1).png>)
 
 Running linpeas.sh I notice python3.8 has capabilities for setuid
 
