@@ -5,8 +5,6 @@ coverY: 0
 
 # About Me
 
-## ![](.gitbook/assets/ProfilePicCircleMe.png)
-
 ## Tyler Staut
 
 I am currently a cloud security engineer working to become a certified penetration tester.
