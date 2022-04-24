@@ -405,6 +405,8 @@ dd1418e1e9711a65\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*\*
 
 </details>
 
+## Privilege Escalation
+
 Now we need to escalate to the root user.&#x20;
 
 Earlier we saw that screen was running as the root user so maybe there is a vulnerability we can exploit with screen.
