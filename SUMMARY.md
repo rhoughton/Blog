@@ -10,6 +10,7 @@
     * [Backdoor](ctf-writeups/hackthebox/linux/backdoor.md)
   * [Windows](ctf-writeups/hackthebox/windows/README.md)
     * [Jeeves](ctf-writeups/hackthebox/windows/jeeves.md)
+  * [Cyber Apocalypse 2022 - Intergalactic Chase](ctf-writeups/hackthebox/cyber-apocalypse-2022-intergalactic-chase.md)
 * [TryHackMe](ctf-writeups/tryhackme/README.md)
   * [Rooms](ctf-writeups/tryhackme/rooms/README.md)
     * [Dirty Pipe: CVE-2022-0847](ctf-writeups/tryhackme/rooms/dirty-pipe-cve-2022-0847.md)
