@@ -11,6 +11,10 @@ My HackTheBox profile is [here](https://app.hackthebox.eu/profile/137731)
 {% content-ref url="linux/cap.md" %}
 [cap.md](linux/cap.md)
 {% endcontent-ref %}
+
+{% content-ref url="../../ctf-writeups/hackthebox/linux/backdoor.md" %}
+[backdoor.md](../../ctf-writeups/hackthebox/linux/backdoor.md)
+{% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Windows" %}
