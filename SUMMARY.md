@@ -18,7 +18,6 @@
     * [GoldenEye](ctf-writeups/tryhackme/rooms/goldeneye.md)
 * [VulnHub](ctf-writeups/vulnhub/README.md)
   * [GoldenEye](ctf-writeups/vulnhub/goldeneye.md)
-* [Cyber Apocalypse 2022 - Intergalactic Chase](ctf-writeups/cyber-apocalypse-2022-intergalactic-chase.md)
 
 ## Tools
 
