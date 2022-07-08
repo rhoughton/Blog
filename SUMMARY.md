@@ -8,6 +8,7 @@
   * [Linux](ctf/hackthebox/linux/README.md)
     * [Cap](ctf/hackthebox/linux/cap.md)
     * [Backdoor](ctf-writeups/hackthebox/linux/backdoor.md)
+    * [SwagShop](ctf-writeups/hackthebox/linux/swagshop.md)
   * [Windows](ctf-writeups/hackthebox/windows/README.md)
     * [Jeeves](ctf-writeups/hackthebox/windows/jeeves.md)
 * [TryHackMe](ctf-writeups/tryhackme/README.md)

