@@ -15,6 +15,10 @@ My HackTheBox profile is [here](https://app.hackthebox.eu/profile/137731)
 {% content-ref url="../../ctf-writeups/hackthebox/linux/backdoor.md" %}
 [backdoor.md](../../ctf-writeups/hackthebox/linux/backdoor.md)
 {% endcontent-ref %}
+
+{% content-ref url="../../ctf-writeups/hackthebox/linux/swagshop.md" %}
+[swagshop.md](../../ctf-writeups/hackthebox/linux/swagshop.md)
+{% endcontent-ref %}
 {% endtab %}
 
 {% tab title="Windows" %}
