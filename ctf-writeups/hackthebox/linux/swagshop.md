@@ -144,7 +144,7 @@ Looking at the site we cant hit that
 
 ![](<../../../.gitbook/assets/image (28).png>)
 
-Looking at the working site itt has `index.php` in the url so trying that it looks like it works
+Looking at the working site it has `index.php` in the url so trying that it looks like it works
 
 ![](<../../../.gitbook/assets/image (27).png>)
 
@@ -162,7 +162,7 @@ We got the admin panel!!!
 
 Now that we are authenticated lets try that other exploit found here: [https://www.exploit-db.com/exploits/37811](https://www.exploit-db.com/exploits/37811)
 
-Modifying the config to the correct install date and the credentials we got from the exploiit
+Modifying the config to the correct install date and the credentials we got from the exploit
 
 ![](<../../../.gitbook/assets/image (6).png>)
 
@@ -170,7 +170,7 @@ We get a “mechanize.\_form\_controls.ControlNotFoundError”.
 
 ![](<../../../.gitbook/assets/image (5).png>)
 
-After searchiing google I found this on stackoverflow: [https://stackoverflow.com/questions/35226169/clientform-ambiguityerror-more-than-one-control-matching-name](https://stackoverflow.com/questions/35226169/clientform-ambiguityerror-more-than-one-control-matching-name)
+After searching google I found this on stackoverflow: [https://stackoverflow.com/questions/35226169/clientform-ambiguityerror-more-than-one-control-matching-name](https://stackoverflow.com/questions/35226169/clientform-ambiguityerror-more-than-one-control-matching-name)
 
 We need to make a slight code change
 
@@ -198,7 +198,7 @@ We also need to follow redirects it looks like
 
 ![](<../../../.gitbook/assets/image (31).png>)
 
-There was also another issue that I found because the machine was old and not patched recently but you have to create a shipment and make sure it is in the processnig state. I found a note on the forum here: [https://forum.hackthebox.com/t/swagshop/1539/1229](https://forum.hackthebox.com/t/swagshop/1539/1229)
+There was also another issue that I found because the machine was old and not patched recently but you have to create a shipment and make sure it is in the processing state. I found a note on the forum here: [https://forum.hackthebox.com/t/swagshop/1539/1229](https://forum.hackthebox.com/t/swagshop/1539/1229)
 
 Now running the exploit we get output!
 
