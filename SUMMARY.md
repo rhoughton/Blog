@@ -78,3 +78,7 @@
 
 * [Linkedin](https://www.linkedin.com/in/tyler-staut)
 * [Github](https://github.com/Tyler-Staut)
+
+## 😎 Support
+
+* [ko-fi](https://ko-fi.com/tylerstaut)
