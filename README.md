@@ -13,8 +13,6 @@ I have a personal home lab where I can experiment with just about anything. My r
 
 I am using this blog to help me on my pen-testing journey and will include a lot of information I find useful and writeups so I can search them easily later.
 
-{% embed url="https://ko-fi.com/tylerstaut" %}
-
 ## Hacking Blogs
 
 {% tabs %}
@@ -34,3 +32,10 @@ My TryHackMe profile is [here](https://tryhackme.com/p/TylerStaut)
 {% endcontent-ref %}
 {% endtab %}
 {% endtabs %}
+
+## Support Me
+
+My work takes time to research and develop.\
+If you want to help support me please consider:
+
+{% embed url="https://ko-fi.com/tylerstaut" %}
